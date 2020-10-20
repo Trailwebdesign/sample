@@ -1,0 +1,213 @@
+/*- Big tablet to 1200px(width smaller than the 1140px row) -*/
+
+@media only screen and (max-width:1200px){
+    .container{
+        width:100%;
+        padding:0 2%;
+    }
+    .hero-contact-us-box{
+        width:90%;
+    }
+    .hero-home-text-box {
+        width: 100%;
+        padding: 0 2%;
+        font-size: 90%;
+    }
+     #header{
+        width:100%;
+        padding: 0 2%;
+    }
+    .donate_bar .donate_bar_box{
+        width:100%;
+        padding: 0 2%:
+    }
+}
+
+/*- Small tablet to big tablet:(from 768px to 1023px row) -*/
+
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 17px;
+    }
+    .hero-wwd-header-box{
+        width:90%;
+    }
+    .wwd-section-1{
+        font-size: 75%;
+    }
+    .wwd-section-site .section-team{
+        font-size:80%;
+    }
+}
+
+
+
+/*- Small phones to big phones(from 481px to 767px) -*/
+
+@media only screen and (max-width:767px){
+    body{
+        font-size: 15px;
+    }   
+    section{
+        padding:30px 0;
+    }
+    .container,.hero-home-text-box{
+        padding:0 2%;
+    }
+
+    .sticky .menu{
+        display:none;
+    }
+    .donate_bar .donate_bar_box{
+        width:100%;
+        padding: 0 1%;
+        font-size:50%;
+    }
+    .section-objective .objective{
+        width:95%;
+        padding: 1%;
+        margin-top:1%;
+    }
+    .section-objective .objective ol li{
+        font-size: 80%;
+        line-height: 120%;
+    }
+    .section-objective .objective ol{
+        width:100%;
+    }
+    .section-team-row-1{
+        margin-bottom: 0%;
+    }
+    .section-team-row-1 .section-team-1,
+    .section-team-row-2 .section-team-2{
+        width:95%;
+        border:1px solid #fff;
+        margin-top:2%;
+        padding: 1%;
+    }
+    .section-team-row-2 .section-team-2 {
+        margin-left: 2%;
+    }
+    
+    .section-team-row-1 .section-team-1 cite{
+        margin-top: 10%;
+    }
+    
+    
+
+    .wwd-section-1 .objective {
+        width: 100%;
+    }
+    
+    
+    .wwd-section-1 .objective-1 {
+        text-align: center;
+    }
+    .wwd-section-1 .objective-1 .wwd-screen {
+        width: 50%;
+    }
+    .wwd-section-1 .objective ol li{
+        padding: 1%;
+    }
+    
+    
+    .wwd-section-site-row-1 .wwd-section-site-team-1,
+    .wwd-section-site-row-2 .wwd-section-site-team-2 {
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 4%;
+    }
+    .wwd-section-site-row-1 {
+        margin-bottom: 0%;
+    }
+    
+    
+    .wwd-section-site-row-2 .wwd-section-site-team-2 blockquote{
+        margin-top:0;
+    }
+    
+    
+    
+    /*-donate us-*/
+    
+    .contact-container {
+        flex-direction: column;
+    }
+    
+    .contact-container .contactinfo{
+        width:90%;
+    }
+    
+    .contact-container .contactinfo .contactinfo-box{
+        padding:5px 0;
+    }
+    
+    .contact-container .contactinfo .contactinfo-box .icon{
+        min-width: 30px;
+        height: 30px;
+        font-size: 100%;
+    }
+    .contactform{
+        width:100%;
+        margin-top:20px;
+        padding: 12px;
+    }
+    
+    /*.hero-contact-us-box {
+        top: 60%;    
+    }*/
+    .contactform .inputbox input, .contactform .inputbox textarea {
+        margin: 5px 0;
+    }
+    
+    .contact-container .contactinfo .contactinfo-box .text {
+        font-size: 80%;
+    }
+    
+    /* mobile nav*/
+    
+    .menu { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .menu{
+        float: left;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
+    .menu li {
+        display: contents;
+    }
+    
+    .menu li a:link,
+    .menu li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .menu { margin-top: 10px; }
+
+    .sticky .menu li a:link,
+    .sticky .menu li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    .section-team-row-1 .section-team-1 blockquote p{
+        height:100px;
+    }
+
+    
+    
+}
+/*- Small phones:(from 0 to 480px) -*/
+
+@media only screen and (max-width:480px){
+    section{
+        padding:25px 0;
+    }
+    .section-team-row-1 .section-team-1 blockquote p{
+        height:120px;
+    }
+}
